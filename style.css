@@ -1,0 +1,79 @@
+body{
+    margin: 0 60px;
+    font-family: "Azeret Mono", monospace;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.header-right{
+    background: none;
+    border: 1px solid blue;
+    
+}
+.slider{
+    background-image: url("./imag/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+}
+.slider-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+.btn-primary{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 22px;
+}
+.hero{
+    background:linear-gradient(180.00deg, #eeeff3 2%, #FFFFFF 100%);
+}
+.mere-dilum{
+    margin-top: 30px;
+    text-align:center ;
+}
+.eco{
+    background: #FFFFFF;
+    padding: 50px;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.btn-blog{
+    background: none;
+    padding: 15px;
+    border: 1px solid black;
+}
+.target{
+    display: flex;
+    justify-content: space-around;
+
+}
+.target-first{
+    background-color: #ded4da;
+    padding: 30px;
+    border-radius: 5px;
+}
+.target-second{
+    background-color: #b2b4bc;
+    padding: 30px;
+    border-radius: 5px;
+}
+.target-third{
+    background-color: rgb(205, 206, 208);
+    padding: 30px;
+    border-radius: 5px;
+}
+.btn{
+    background: none;
+    border-bottom: 1px solid black;
+}
