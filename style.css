@@ -64,16 +64,54 @@ body{
     border-radius: 5px;
 }
 .target-second{
-    background-color: #b2b4bc;
+    background-color: rgb(191, 191, 230);
     padding: 30px;
     border-radius: 5px;
 }
 .target-third{
-    background-color: rgb(205, 206, 208);
+    background-color: rgb(200, 202, 184);
     padding: 30px;
     border-radius: 5px;
 }
 .btn{
     background: none;
-    border-bottom: 1px solid black;
+    
+    padding: 0 px;
+}
+.to-go{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 10px;
+}
+.footer{
+    background: url("./imag/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+}
+.footer-title{
+    font-size: 38px;
+    padding-top: 40px;
+}
+#email{
+    padding: 15px 80px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-second{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
 }
